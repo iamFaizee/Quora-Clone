@@ -1,9 +1,10 @@
 import './App.css';
+import { AllRoutes } from './allroutes/Allroute';
 
 function App() {
   return (
     <div className="App">
-      <h1>Quora clone (you can remove this heading while working)</h1>
+      <AllRoutes/>
     </div>
   );
 }
