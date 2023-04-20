@@ -1,0 +1,13 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "answers": [
+      { "id": 1, "content": "some comment", "postId": 1 },
+      { "id": 2, "content": "some comment", "postId": 1 },
+      { "id": 3, "content": "some comment", "postId": 1 },
+      { "id": 4, "content": "some comment", "postId": 1 },
+      { "id": 5, "content": "some comment", "postId": 1 }
+    ]
+    
+  }
