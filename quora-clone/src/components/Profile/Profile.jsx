@@ -209,7 +209,7 @@ export default function Profile() {
                 </ModalContent>
               </Modal>
             </div>
-            <h1>Knows About</h1>
+            <h1>Knows about</h1>
             <hr />
           </div>
         </div>
