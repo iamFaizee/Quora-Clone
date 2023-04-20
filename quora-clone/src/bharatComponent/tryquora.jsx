@@ -17,23 +17,8 @@ const Tryquora=()=>{
                         <ModalOverlay />
                         <ModalContent h='420px' p='10px' color='gray'>
                             <CloseButton size='lg' onClick={onClose}/>
-                            <HStack pb='10px'>
-                                <Text w='50%' color='blackAlpha.800' textAlign='center'>Add Question</Text>
-                                <Text w='50%' color='blackAlpha.800' textAlign='center'>Create Post</Text>
-                            </HStack>
-                            <hr />
-                            <HStack py='20px' px='10px'>
-                                <Image mr='10px' w='25px' src='https://cdn-icons-png.flaticon.com/512/149/149071.png' />
-                                <Image w='10px' src='https://cdn-icons-png.flaticon.com/512/38/38483.png' />
-                                <Button boxShadow='inner' borderRadius='50px' bg='white' border='1px solid silver' size='sm'>
-                                    <Image w='20px' src={spaces} />
-                                    
-                                    <Text pl='5px' fontSize='xs'>hello</Text>
-                                    <Image color='black' w='20px' src={downarrow} />
-                                </Button>
-                                
-                            </HStack>
-                            <Input variant='flushed' size='lg' placeholder='Start your question with "What","How","Why",etc.' />
+                            
+                            
                         </ModalContent>
                     </Modal>
     </>
