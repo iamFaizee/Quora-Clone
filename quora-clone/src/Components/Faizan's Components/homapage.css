@@ -4,20 +4,22 @@
     padding: 0;
 }
 
-#mainContainer{
+/* #mainContainer{
     background-color: rgb(241,242,242);
-}
+} */
 
 /* sidebar start */
 
 .sidebar{
     display: flex;
-    border: 1px solid black;
-    width: 13%;
+    /* border: 1px solid black; */
+    width: 15%;
     flex-direction: column;
     gap: 0.4rem;
-    /* padding: 0 1rem; */
-    /* padding-right: 1rem; */
+    /* margin-bottom: 1rem; */
+    position: absolute;
+    padding: 0 1rem;
+    /* left: 5rem; */
 }
 
 .sidebar div{
@@ -33,7 +35,7 @@
 }
 
 .sidebar div img{
-    width: 1.3rem;
+    width: 1.2rem;
     border-radius: 4px;
 }
 
@@ -49,16 +51,21 @@
 
 .homepage-container{
     display: flex;
-    border: 1px solid red;
-    width: 80%;
+    /* border: 1px solid red; */
+    width: 70%;
     margin: auto;
     margin-top: 1rem;
+    position: relative;
 }
 
 .homepage{
     width: 55%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     padding: 0 1rem;
+    /* margin: auto; */
+    margin-left: 9rem;
+    /* left: 5rem; */
+    
 }
 
 /* Homepage end */

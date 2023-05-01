@@ -1,0 +1,13 @@
+.Answerbox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 10 px solid gray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    /* max-width: 900px; */
+}
+/* .Answerbox:hover{
+    border: 1px solid rgb(175, 175, 175);
+} */

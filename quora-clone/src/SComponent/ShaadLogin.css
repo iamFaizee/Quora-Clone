@@ -1,0 +1,149 @@
+.loginbody {
+  background-image: url("https://qsf.fs.quoracdn.net/-4-ans_frontend_assets.images.home_page_bg_desktop.png-26-4770753d59b970e1.png") !important;
+  height: 100vh;
+}
+
+.LoginContainer {
+  width: 700px;
+  height: 530px;
+  background-color: white;
+  border-radius: 5px;
+}
+.IconDiv img {
+  width: 290px;
+}
+.IconDiv {
+  align-items: center;
+  margin: auto;
+}
+.TagLine {
+  margin-top: -45px;
+}
+.TagLine > p {
+  color: gray;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+}
+.LRContainer {
+  display: flex;
+}
+
+.LeftDiv {
+  border-right: 1px solid gray;
+  font-size: 13px;
+  color: gray;
+  padding: 10px 25px;
+  text-align: left;
+
+  width: 350px;
+  height: 260px;
+}
+.RightDiv {
+  width: 350px;
+  height: 260px;
+}
+.LinkUnderLine:hover {
+  text-decoration: underline;
+}
+
+.GoogleAuth {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.GoogleAuth:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.GoogleAuth > img {
+  height: 30px;
+  object-fit: contain;
+}
+
+.GoogleAuth > p {
+  margin-left: 15px;
+  font-size: 15px;
+  color: black;
+}
+
+.RightDiv {
+  padding: 10px 25px;
+}
+.LoginText {
+  text-align: left;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.LoginText p {
+  font-weight: 700;
+  font-size: larger;
+}
+.InputEmail p {
+  margin-bottom: 5px;
+}
+.InputEmail {
+  text-align: left;
+  font-size: 15px;
+  color: black;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+.LoginButton {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  align-items: center;
+}
+
+.LoginButton > div p {
+  font-size: small;
+}
+.LoginButton > div p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.LangDiv {
+  margin-top: 7px;
+  align-items: center;
+}
+.LangDiv p {
+  font-size: small;
+  color: rgb(70, 70, 168);
+}
+.LangDiv p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login__footer {
+  border-top: solid 1px gray;
+  margin-top: 5px;
+  padding: 15px;
+  display: flex;
+  align-items: center !important;
+  justify-content: space-evenly;
+  background-color: rgb(224, 219, 219);
+}
+
+.login__footer > p {
+  color: gray;
+  font-size: small;
+  cursor: pointer;
+}
+
+.login__footer > p:hover {
+  text-decoration: underline;
+}
+
+.HrColor {
+  border-top: 1px solid gray;
+  margin-bottom: 15px;
+}

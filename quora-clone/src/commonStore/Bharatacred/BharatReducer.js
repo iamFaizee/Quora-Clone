@@ -1,11 +1,16 @@
 const initialValue = {
-    
+  post: [],
   };
   
   const Bharatreducer = (state = initialValue, action) => {
-  //   console.log("reducer me payload", action.payload);
+    if(action.type==="userpost"){
+      return{
+          ...state,post:action.payload
+      }
+    }
+  
     return state;
-  };
+}
   
   export  {Bharatreducer};
   

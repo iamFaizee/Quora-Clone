@@ -1,0 +1,33 @@
+.sidebarOptions {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebarOption {
+    display: flex;
+    
+    justify-content: end;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebarOption > p:hover {
+    /* background: #E0E0E0; */
+    border-radius: 5px;
+    color:red;
+    padding-right: 50px;
+  }
+  
+  .sidebarOption > p {
+    margin-left: 10px;
+    color: red;
+    font-weight: 500;
+    font-size: 15px;
+
+  }
+  
+  .sidebarOption > .text {
+    margin-left: 23px;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+  }

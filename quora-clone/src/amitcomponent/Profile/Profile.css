@@ -1,0 +1,89 @@
+.border{
+    border: 1px solid white;
+    height: 650px;
+    width: 67%;
+    margin-left: 160px;
+    margin-right: 5px;
+}
+.upper{
+    border: 1px solid white;
+    height: 240px;
+    width: 100%;
+    margin-right: 450px;
+   
+    
+}
+.box2{
+    border: 1px solid white;
+    height: 43px;;
+    width: 60%;
+    align-items: center;
+}
+.box2 .chakra-tabs {
+    width: auto;
+  }
+  
+  .box2 .chakra-tabs__tab {
+    float: left;
+    font-size: 13px;
+  }
+  
+.Profile{
+    float: left;
+}
+.upper_left{
+    float: left;
+    border: 1px solid white;
+    height: 60%;
+    width: 20%;
+}
+.pic{
+    margin-top: 10px;
+    float: left;
+}
+.profilename{
+    border: 1px solid white;
+    height: 40px;
+    width: 40%;
+    margin-left: 135px;
+    margin-top: 15px;
+    display: flex;
+   
+}
+.para p{
+    margin-top: 10px;
+    float: left;
+    font-size: small;
+    font-weight: 400;
+    margin-left: 15px;
+    font-style: normal;
+    color: grey;
+}
+
+.sidebox{
+    float: right;
+    border: 1px solid white;
+    height: 180px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.para1{
+    margin-bottom: 100px;
+    
+}
+
+.credential_box p{
+    margin-left: 10px;
+}
+.knows{
+    border: 1px solid white;
+    height: 220px;
+    float: right;
+    margin-left: 40px;
+    width: 282px;
+    
+}
+.left{
+    float: right;
+}

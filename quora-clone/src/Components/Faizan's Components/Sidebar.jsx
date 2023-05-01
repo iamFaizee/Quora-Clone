@@ -1,25 +1,28 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "../Faizan's Components/homapage.css"
-import {Box,Divider,Text,Button } from '@chakra-ui/react';
+import {Box,Divider,Text,Button, HStack, Link ,Stack} from '@chakra-ui/react';
 import {MdOutlineAddBox} from 'react-icons/md'
+import { AuthContext } from '../../commonStore/contextapi';
 
 
 
 function Sidebar(props) {
+    const { postuser, setinputdata, postdata, inputdata, setIsAuth, getalldata, dark, setdark } = useContext(AuthContext);
+    
     return (
-        <div className="sidebar">
+        <div className="sidebar" style={{display:'flex', justifyContent:'end', marginLeft:'-20px', background: dark?'black':'white' }}>
             {/* <Box border="none" p="0.3rem 0.5rem" borderRadius="3px" bg="rgb(205, 221, 221)">
                 
               <MdOutlineAddBox style={{fontSize:"1.2rem",marginRight:"-5px",color:"grey"}} />
 
               <p style={{fontSize:"0.8rem",color:"grey"}}>Create Space</p>
             </Box> */}
-            <Button leftIcon={<MdOutlineAddBox/>} size="sm" bg="rgb(236,237,237)" color="rgb(100, 100, 100)">
+            <Button leftIcon={<MdOutlineAddBox/>} size="sm" bg="rgb(236,237,237)" color="rgb(100, 100, 100)" mt={'20px'}>
                 Create Space
 
             </Button>
             <div>
-                <img src="https://qph.cf2.quoracdn.net/main-thumb-t-930-100-cbbsbwijdhpyzlpipejvqpiijhhoaday.jpeg" alt="History" />
+                <img src="https://render.fineartamerica.com/images/rendered/medium/poster/8/8/break/images/artworkimages/medium/1/circuit-board-technology-setsiri-silapasuwanchai.jpg" alt="History" />
                 <p>History</p>
             </div>
             
@@ -30,7 +33,7 @@ function Sidebar(props) {
             
             
             <div>
-                <img src="https://qph.cf2.quoracdn.net/main-thumb-t-1913-100-B8JrwaVauFzsaTSqXDqoWLCXzQb2mTE9.jpeg" alt="Psychology" />
+                <img src="https://render.fineartamerica.com/images/rendered/medium/poster/8/8/break/images/artworkimages/medium/1/circuit-board-technology-setsiri-silapasuwanchai.jpg" alt="Psychology" />
                 <p>Psychology</p>
             </div>
             
@@ -54,7 +57,7 @@ function Sidebar(props) {
             
         
             <div>
-                <img src="https://qph.cf2.quoracdn.net/main-thumb-t-931-100-c8WCPwZ9qPsh5zLGQ5wHh1ddxtc9Cch7.jpeg" alt="Science" />
+                <img src="https://render.fineartamerica.com/images/rendered/medium/poster/8/8/break/images/artworkimages/medium/1/circuit-board-technology-setsiri-silapasuwanchai.jpg" alt="Science" />
                 <p>Science</p>
             </div>
             
@@ -64,11 +67,31 @@ function Sidebar(props) {
                 <p>Quora Upvotes</p>
             </div>
 
-            <Divider />
-            <Box>
-                <Text>
-                    {/* AboutCareersTermsPrivacyAcceptable UseBusinessesPressYour Ad ChoicesGrievance Officer */}
-                </Text>
+            <hr />
+
+            <Box display='flex' flexDirection='column' >
+                <HStack spacing={0} mb='-20px'>
+                    <Link><Text fontSize="0.3rem">About•</Text></Link>
+                    <Link><Text fontSize="xs">Careers•</Text></Link>
+                </HStack>
+                
+                <HStack spacing={0}  mb='-20px'>
+                    <Link><Text fontSize="xs">Terms•</Text></Link>
+                    <Link><Text fontSize="xs">Privacy•</Text></Link>
+                </HStack>
+                <HStack spacing={0}  mb='-20px'>
+                    <Link><Text fontSize="xs">Acceptable Use•</Text></Link>
+                </HStack>
+                <HStack spacing={0}  mb='-20px'>
+                    <Link><Text fontSize="xs">Business•</Text></Link>
+                    <Link><Text fontSize="xs">Press•</Text></Link>
+                </HStack>
+                <HStack spacing={0}  mb='-20px'>
+                    <Link><Text fontSize="xs">Your Ad Choices•</Text></Link>
+                </HStack>
+                <HStack   mt='0px'>
+                    <Link><Text fontSize="xs">Grienvance Officer</Text></Link>
+                </HStack>
             </Box>
         </div>
     );
